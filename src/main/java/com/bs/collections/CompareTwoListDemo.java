@@ -15,6 +15,7 @@ public class CompareTwoListDemo {
         list2.add(13);
         list2.add(22);
         list2.add(3);
+        list2.add(5);
 
         System.out.println("========================");
         System.out.println("List1: " + list1);
@@ -27,6 +28,8 @@ public class CompareTwoListDemo {
         // java 8
         List<Integer> collect = list1.stream().filter(num1 -> list2.contains(num1)).collect(Collectors.toList());
         System.out.println(collect);
+        long commonElementCount = list1.stream().filter(num1 -> list2.contains(num1)).count();
+        System.out.println("Count: "+commonElementCount);
 
     }
 }

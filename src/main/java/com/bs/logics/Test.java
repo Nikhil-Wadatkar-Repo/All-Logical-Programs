@@ -1,5 +1,7 @@
 package com.bs.logics;
 
+import com.bs.collections.CompareTwoListDemo;
+
 import java.util.ArrayList;
 
 public class Test {
@@ -18,5 +20,6 @@ public class Test {
         java.forEach(num -> {
             java.add(3);
         });
+
     }
 }
