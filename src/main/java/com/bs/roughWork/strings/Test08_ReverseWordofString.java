@@ -5,6 +5,7 @@ public class Test08_ReverseWordofString {
 		String st = "Enter the sentence";
 		char ch[] = st.toCharArray();
 		String rst = " ";
+		
 		for (int i = 0; i < ch.length; i++) {
 			int k = i;
 			while (i < ch.length && ch[i] != ' ') {
