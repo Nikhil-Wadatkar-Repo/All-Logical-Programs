@@ -21,7 +21,7 @@ public class Test01_RemoveDupicateInStringUsingForLoop {
 //        System.out.println(String.valueOf(Arrays.copyOf(arr, index)));
 
         for (int i = 0; i < index; i++) {
-            System.out.print (arr[i]+" ");
+            System.out.print (arr[i]);
         }
     }
 }

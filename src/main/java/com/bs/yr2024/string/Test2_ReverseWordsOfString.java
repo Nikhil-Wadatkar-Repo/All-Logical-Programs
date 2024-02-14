@@ -1,4 +1,4 @@
-package com.bs.yr2023.string;
+package com.bs.yr2024.string;
 
 public class Test2_ReverseWordsOfString {
     public static void main(String[] args) {

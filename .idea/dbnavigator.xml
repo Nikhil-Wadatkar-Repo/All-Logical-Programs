@@ -48,6 +48,9 @@ select * from emp where (sal,mgr) in (select max(sal),mgr from emp group by DEPT
     <last-used-operator value="EQUAL" />
     <filters />
   </component>
+  <component name="DBNavigator.Project.ParserDiagnosticsManager">
+    <diagnostics-history />
+  </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
       <connection id="288c9347-9d3b-430a-9a0a-e84bbe4273e9" active="true" signed="true">
