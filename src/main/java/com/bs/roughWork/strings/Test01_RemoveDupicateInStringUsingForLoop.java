@@ -8,18 +8,19 @@ public class Test01_RemoveDupicateInStringUsingForLoop {
 
         int index = 0;
 
-        for (int i = 0; i < n; i++) {
-            int k=0;
-            for (k = 0; k < i; k++) {
-                if (arr[i] == arr[k]) break;
+        for (int mainPointer = 0; mainPointer < n; mainPointer++) {
+            int rotator=0;
+            for (rotator = 0; rotator < mainPointer; rotator++) {
+                if (arr[mainPointer] == arr[rotator]) break;
             }
-            if (i == k) {
-                arr[index++] = arr[i];
+            if (mainPointer == rotator) {
+                arr[index++] = arr[mainPointer];
             }
         }
         String newStr = new String (arr);
 //        System.out.println(String.valueOf(Arrays.copyOf(arr, index)));
 
+        System.out.println("New String");
         for (int i = 0; i < index; i++) {
             System.out.print (arr[i]+" ");
         }

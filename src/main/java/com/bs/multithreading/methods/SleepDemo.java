@@ -1,4 +1,4 @@
-package com.bs.multithreading;
+package com.bs.multithreading.methods;
 
 
 public class SleepDemo {
